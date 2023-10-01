@@ -1,0 +1,121 @@
+body {
+	background-color: #f4f7f9;
+	color: var(--color-blue);
+	font-family: 'Mina', sans-serif;
+	padding: 40px;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.body_404{
+	text-align: center;
+}
+
+.index_body{
+	background-color: var(--color-g-grey);
+}
+
+img.logo{
+	max-width: 200px;
+	margin: 20px auto;
+	display: block;
+}
+
+header{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 20px;
+	justify-content: space-evenly;
+}
+
+header img{
+	width: 100px;
+}
+
+img.header-img{
+	border-radius: 7px;
+}
+
+h1 {
+	font-size: 36px;
+	margin-bottom: 10px;
+	color: var(--color-purple);
+	font-family: 'Handjet', cursive;
+}
+
+h2{
+	font-family: 'Martian Mono', monospace;
+	text-align: center;
+	font-size: larger;
+	line-height: 40px;
+}
+
+p {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.gekko-speech {
+	font-family: 'Gloria Hallelujah', cursive;
+	border: 3px solid var(--color-blue);
+	background-color: #fff;
+	padding: 10px;
+	border-radius: 10px;
+	display: inline-block;
+	max-width: 400px;
+}
+
+.gekko-speech:before {
+	font-family: 'Courier New', Courier, monospace;
+	content: 'Hello there!';
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.sign-off{
+	color: var(--color-green);
+	font-family: 'Patrick Hand', cursive;
+}
+
+.header-line{
+	font-family: 'Handjet', cursive;
+	font-size: 35px;
+}
+
+.social-icons {
+	margin-top: 30px;
+}
+
+.social-icons a {
+	display: inline-block;
+	margin: 5px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	line-height: 30px;
+	text-align: center;
+	text-decoration: none;
+}
+
+footer{
+	text-align: center;
+	margin-top: auto;
+	font-family: 'Mina', sans-serif;
+}
+
+.other-links{
+	border: 2px solid var(--color-green);
+	border-radius: 10px;
+	padding: 2dvb;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: bolder;
+}
+
+.other-links ul{
+	display: flex;
+	justify-content: space-evenly;
+}

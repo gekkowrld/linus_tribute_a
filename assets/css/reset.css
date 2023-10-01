@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Handjet&family=Mina&family=Martian+Mono&family=Patrick+Hand&display=swap');
+:root{
+	--color-purple: #bf00ff;
+	--color-blue: #0063a4;
+	--color-green: #009900;
+	--color-black: #000000;
+	--color-g-grey: #a89b9b;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, form, fieldset, legend, input, textarea, button, select {
+	font-family: inherit;
+	font-size: 100%;
+	font-weight: inherit;
+	line-height: 1;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+button{
+	cursor: pointer;
+}
+
+a {
+	text-decoration: none;
+	color: var(--color-purple);
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+a:focus {
+	text-decoration: none;
+}
+
+input, textarea, select, button {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+}
