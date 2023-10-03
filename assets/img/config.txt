@@ -31,4 +31,3 @@ interface GigabitEthernet0/0/1
 
 interface GigabitEthernet0/0/2
  traffic-filter inbound acl 2000
-
